@@ -204,7 +204,7 @@ public class tik_tok_toe {
     			  input(pos,arr,t1);
     			  print(arr);
     			  d=cheak(arr,s1,count);
-    			  if(d==false)
+    			  if(d==false && count<9)
     			  {
     				  play1=play1+1;
     			  }
@@ -216,7 +216,7 @@ public class tik_tok_toe {
     			  input(pos,arr,t2);
     			  print(arr);
     			  d=cheak(arr,s2,count);
-    			  if(d==false)
+    			  if(d==false && count<9)
     			  {
     				  play2=play2+1;
     			  }
